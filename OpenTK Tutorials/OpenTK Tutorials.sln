@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK.Tutorial01", "OpenTK.Tutorial01\OpenTK.Tutorial01.csproj", "{89E0762B-BB69-46DF-94FD-ED47276694BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK.Tutorial02", "OpenTK.Tutorial02\OpenTK.Tutorial02.csproj", "{FBF57FE0-82B7-4F90-AE0A-1ABCD2F07967}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{89E0762B-BB69-46DF-94FD-ED47276694BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E0762B-BB69-46DF-94FD-ED47276694BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E0762B-BB69-46DF-94FD-ED47276694BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF57FE0-82B7-4F90-AE0A-1ABCD2F07967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF57FE0-82B7-4F90-AE0A-1ABCD2F07967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF57FE0-82B7-4F90-AE0A-1ABCD2F07967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF57FE0-82B7-4F90-AE0A-1ABCD2F07967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
