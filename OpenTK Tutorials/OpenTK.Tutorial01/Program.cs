@@ -62,9 +62,23 @@ namespace OpenTK.Tutorial01
             // Setup Camera
             GL.MatrixMode(MatrixMode.Projection);
             GL.LoadIdentity();
-            GL.Ortho(-Ratio, Ratio, -1.0f, 1.0f, 0.1f, 100.0f);
+            GL.Ortho(-Ratio, Ratio, -1.0f, 1.0f, 0.0f, 100.0f);
             GL.MatrixMode(MatrixMode.Modelview);
             GL.LoadIdentity();
+
+            // Triangle
+            GL.Begin(PrimitiveType.Triangles);
+
+            GL.Vertex3(-1.0f, -1.0f, 0.0f);
+            GL.Color3(1.0f, 0.0f, 0.0f);
+
+            GL.Vertex3(1.0f, -1.0f, 0.0f);
+            GL.Color3(0.0f, 1.0f, 0.0f);
+
+            GL.Vertex3(0.0f, 1.0f, 0.0f);
+            GL.Color3(0.0f, 0.0f, 1.0f);
+
+            GL.End();
 
             // Swap Framebuffer
             Display.SwapBuffers();
